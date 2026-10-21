@@ -42,9 +42,12 @@ Use this skill as a **routing index**, not a command to load every document.
 | Improve frontend performance and Core Web Vitals | Web loading performance, render blocking, Core Web Vitals. | [`references/20-core-web-vitals.md`](references/20-core-web-vitals.md) |
 | Distribute cache keys with consistent hashing | Distributing cache keys and adding/removing cache servers. | [`references/21-consistent-hashing.md`](references/21-consistent-hashing.md) |
 
+| Design modular monolith boundaries and module contracts | Monolith architecture, internal API ownership, enforcing dependency boundaries, and deciding when to extract microservices. | [`references/22-modular-monolith.md`](references/22-modular-monolith.md) |
+| Prevent cache stampedes and synchronized expiration | Hot-key cache expiry, many simultaneous misses, stale-while-revalidate, request coalescing, TTL jitter. | [`references/23-cache-stampede.md`](references/23-cache-stampede.md) |
+
 ## Source and provenance
 
-These notes were compiled from 21 user-provided educational clips and their available descriptions. Not all videos have complete audio transcripts. The source descriptions are **not verified audio transcriptions**. The original combined source document, including all supplied descriptions and attribution notes, is preserved at `../../archive/backend-skills-original.md` relative to this skill folder. Read that archive only when a precise source quote, attribution, or missing appendix item is needed.
+These notes were compiled from 23 user-provided educational clips and their available descriptions. Not all videos have complete audio transcripts. The source descriptions are **not verified audio transcriptions**. The initial 21-topic combined source document, including its supplied descriptions and attribution notes, is preserved at `../../archive/backend-skills-original.md` relative to this skill folder. Read that archive only when a precise source quote, attribution, or missing appendix item is needed.
 
 ## Maintenance
 
